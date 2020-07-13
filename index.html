@@ -1,0 +1,48 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Item list2</title>
+	<link rel="stylesheet" href="bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header id="main-header" class="p-3 mb-2 bg-success text-white ">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-6"><h1 id="heder-title">Item lister</h1></div>
+		<div class="col-md-6-align-self-center">
+			<input type="text" class="form-control" id="filter" placeholder="serrch Items....">
+		</div >
+
+	</div></div>
+</header>
+<div class="container">
+<div id="main" class=" card card-body">
+	<h2>add Items</h2>
+	<form class="form-inline " id="addForm">
+	<input type="text" class="form-control" id="item" >
+	<input type="submit" value="submit" class="btn btn-dark">
+	</form>
+<h2 class="title">Items</h2>
+<table id="table"  class="table table-dark">
+<tr ><td>Item 1</td><td><button class="btn btn-danger btn-sm float-xl-right  update" >add</button></td><td><button class="btn btn-danger btn-sm float-right delete">x</button></td></tr>
+<tr ><td>Item 2</td><td><button class="btn btn-danger btn-sm float-xl-right  update" >add</button></td><td><button class="btn btn-danger btn-sm float-right delete">x</button></td></tr>
+<tr ><td>Item 3</td><td><button class="btn btn-danger btn-sm float-xl-right  update" >add</button></td><td><button class="btn btn-danger btn-sm float-right delete">x</button></td></tr>
+<tr ><td>Item 4</td><td><button class="btn btn-danger btn-sm float-xl-right  update" >add</button></td><td><button class="btn btn-danger btn-sm float-right delete">x</button></td></tr>
+</table>
+</div>
+</div>
+
+
+<div class="  popup" >
+	<div class="popup-content p-3 mb-2 bg-success text-white ">
+		<form >
+		<input type="button" value="close" id ="close">
+		<input type="text" placeholder="username" id ="user">
+		<input type="button" value="add"  id="edit"></form>
+	</div>
+</div>
+<script src="dom.js"></script>
+</body>
+</html>
